@@ -1,4 +1,6 @@
-
+/*
+https://dbfiddle.uk/?rdbms=postgres_10&fiddle=fb942c970228577826f80aba53c8d71e
+*/
 CREATE or REPLACE FUNCTION osmabbrv_phone(longname text) RETURNS TEXT AS $$
 DECLARE
   normalize text;
